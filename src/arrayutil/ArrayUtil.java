@@ -41,7 +41,6 @@ public class ArrayUtil {
         System.out.println();
 
 
-
 //        Տպեք մասիվի բոլոր կենտ էլեմենտները։
 
         for (int i = 0; i < array.length; i++) {
@@ -56,7 +55,7 @@ public class ArrayUtil {
         int even = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0)
-                even = even + array[i];
+                even++;
         }
         System.out.println("even = " + even);
 
@@ -66,7 +65,7 @@ public class ArrayUtil {
         int oodd = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 != 0)
-                oodd = oodd + array[i];
+                oodd++;
         }
         System.out.println("oodd = " + oodd);
 
@@ -74,8 +73,7 @@ public class ArrayUtil {
 //        Տպեք մասիվի բոլոր թվերի միջին թվաբանականը
 
         int result = 0;
-        int i;
-        for (i = 0; i < 10; i++) {
+        for (int i = 0; i < array.length; i++) {
             result = result + array[i];
         }
         System.out.println("result = " + result / array.length);
