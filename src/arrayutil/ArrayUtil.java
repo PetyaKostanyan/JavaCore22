@@ -72,7 +72,7 @@ public class ArrayUtil {
 
 //        Տպեք մասիվի բոլոր թվերի միջին թվաբանականը
 
-        int result = 0;
+        double result = 0;
         for (int i = 0; i < array.length; i++) {
             result = result + array[i];
         }
