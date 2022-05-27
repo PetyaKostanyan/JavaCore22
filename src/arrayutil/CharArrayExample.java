@@ -47,7 +47,7 @@ public class CharArrayExample {
         char[] text = {' ',' ','b','a','r','e','v',' ',' '};
         for (int i = 0; i < text.length; i++) {
             if (text[i] != ' ') {
-                ;
+
             }
             System.out.print(text[i]);
 
